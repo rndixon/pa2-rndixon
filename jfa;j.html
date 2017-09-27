@@ -1,0 +1,54 @@
+Richard Dixon
+Adventure Game Algorithm
+
+print("Welcome to my adventure game. In this game you will have to make educated decisions in order to find a way out of a creepy mansion. Your choices will determine the outcome. Good luck!")
+
+#Backstory
+In the mail you receive an invitation to spend a week at a really nice resort, and you get to stay at an expense paid luxury mansion. At first you are pumped, but after you get there the mansion is not what was advertised. A eerie voice wakes you up in the middle of the night and says, "You have 24 hours to find a way out or you die". All the exits are locked, and it is up to you to find a way out.
+
+Input("Enter your name")
+Output: print("Hello", name "...")
+
+#Story Part 1
+After scouring the whole building you realize that every door is locked except for a red door and a green door.
+input("What door will you go through")
+Output:
+If: red
+    Print("You go through the red door")
+    #Story Part 2 (Red)
+    You walked through the door, and are jogging through the hallway when you accidently step on a trap panel. What trap attacks you?
+    input("Enter a number between 1 and 14 to select a punishment ")
+Output:
+    If: 1 <= 5
+        Print("arrows")
+    elif: 6 >= 10
+        print("rocks")
+    elif: 10 <= 14
+        print("nothing")
+Else: green
+    print("You go through the green door")
+    #Part 2 (green)
+    You have ran for a while, and come upon a nice room. Since you have been in danger all day you take this oppurtunity to rest. Then out of no where you see a man creep up in the corner of your eye. He has a weapon; you only have mere seconds to dodge. What does he hit.
+   x = Input("Enter a number between 1 and 3 to see your injury")
+Output:
+    If: x == 1
+        Print("Gash to the side")
+    elif: x == 2
+        print("Cut on the eye")
+    else:
+        print("Cut off hand")
+#Story part 3
+Battered and bruised you have finally gotten to the last room. There is a door with a electronic lock on it. THe voice comes back and says, "Congratulations on making it this far, but in order to escape you have to give a value to put into this equation".
+final = input(" What number should be substituted for x to make this expression true. But x has to be a decimal. x >= .05 * 6")
+final = float(final)
+Output:
+If: final >= .5 * 6
+    print("Correct")
+    The door opens and you escape to the outside world where your family surrounded by a bunch of police are waiting for your safe return.
+Else:
+    print("Incorrect")
+    A darkness starts filling the room, and the last thing you see is a something leap at you. As the creature leaps darkness prevails, and everything goes dark. Thus you were never seen again.
+print("Thank you for playing")
+
+
+
